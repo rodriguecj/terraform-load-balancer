@@ -14,7 +14,7 @@ sudo apt install nodejs
 # Install  Nestjs
 sudo npm i -g @nestjs/cli
 # Clone Repository and install dependencies
-export FEATURE="A"
+export FEATURE="B" ## Create a environtment variable, $1 is dynamic
 cd /home/ubuntu
 git clone https://github.com/rodriguecj/nest-pokedex.git
 cd nest-pokedex/
